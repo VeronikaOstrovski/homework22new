@@ -55,12 +55,12 @@ public class ApiRemoteTest {
 
     // Positive test for searching order with id=5
     @Test
-    public void setUpId5() {
-        System.out.println("Trying to open browsers");
-        Selenide.open("http://51.250.6.164:8080/test-orders/5" );
-        System.out.println("browser Opened OK");
-        apiRemoteTest.simplePositiveTestResponseBodyStatusOpenGetId5();
-    }
+//    public void setUpId5() {
+//        System.out.println("Trying to open browsers");
+//        Selenide.open("http://51.250.6.164:8080/test-orders/" + "" );
+//        System.out.println("browser Opened OK");
+//        apiRemoteTest.simplePositiveTestResponseBodyStatusOpenGetId5();
+//    }
 
         public void simplePositiveTestResponseBodyStatusOpenGetId5 () {
             id = "5";
@@ -79,7 +79,6 @@ public class ApiRemoteTest {
 
             Assertions.assertEquals(id, getId());
 
-            Selenide.sleep(7500);
         }
 
 
