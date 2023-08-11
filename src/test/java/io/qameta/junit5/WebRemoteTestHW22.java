@@ -12,9 +12,8 @@ import org.openqa.selenium.By;
 import java.util.Map;
 
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.Selenide.sleep;
 
-public class WebRemoteTest {
+public class WebRemoteTestHW22 {
 
     @BeforeAll
     public static void setUpAll(){

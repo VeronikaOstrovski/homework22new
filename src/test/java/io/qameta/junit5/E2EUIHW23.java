@@ -6,10 +6,8 @@ import org.junit.jupiter.api.*;
 import pages.LoginPage;
 import pages.OrderPage;
 
-import static com.codeborne.selenide.Selenide.*;
 
-
-public class E2EUI {
+public class E2EUIHW23 {
 
     // Homework23
     LoginPage loginPage;
